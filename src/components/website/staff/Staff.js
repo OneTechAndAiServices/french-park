@@ -31,17 +31,17 @@ const STAFF = [
       "Intermediate Cardiac Care Science Course (ICCS)",
     ],
   },
-  {
-    name: "Dr. Catherine Donnelly",
-    image: "/staff2.png", 
-    bio: `Dr. Catherine Donnelly graduated from the National University of Ireland in 2009. During her training in Geriatric Medicine (Reg in Medicine) in Tallaght Hospital, Dublin she developed expertise in General Internal Medicine, Neurology, and Musculoskeletal Disorders. After completing her training, Dr. Donnelly completed a Diploma in Tropical Medicine and worked in Malawi for 1 year before returning to general practice. She joined our team in 2015 and holds a Diploma in Tropical and Infectious Disease (DTID) with UCD.`,
-    qualifications: [
-      "MB BCh BAO (National University of Ireland)",
-      "Diploma in Tropical Medicine & Hygiene (DTM&H)",
-      "Diploma in Tropical & Infectious Disease (DTID) UCD",
-      "Membership of the Irish College of General Practitioners (MICGP)",
-    ],
-  },
+  // {
+  //   name: "Dr. Catherine Donnelly",
+  //   image: "/staff2.png", 
+  //   bio: `Dr. Catherine Donnelly graduated from the National University of Ireland in 2009. During her training in Geriatric Medicine (Reg in Medicine) in Tallaght Hospital, Dublin she developed expertise in General Internal Medicine, Neurology, and Musculoskeletal Disorders. After completing her training, Dr. Donnelly completed a Diploma in Tropical Medicine and worked in Malawi for 1 year before returning to general practice. She joined our team in 2015 and holds a Diploma in Tropical and Infectious Disease (DTID) with UCD.`,
+  //   qualifications: [
+  //     "MB BCh BAO (National University of Ireland)",
+  //     "Diploma in Tropical Medicine & Hygiene (DTM&H)",
+  //     "Diploma in Tropical & Infectious Disease (DTID) UCD",
+  //     "Membership of the Irish College of General Practitioners (MICGP)",
+  //   ],
+  // },
 ]
 
 export default function Staff() {
@@ -65,7 +65,7 @@ export default function Staff() {
                 display:"flex",
                 backgroundColor: "#fff",
                 borderRadius: "40px",
-                boxShadow: 3,
+                // boxShadow: 3,
                 p: { xs: 4, md: 6 },
                 pt: { xs: 8, md: 10 },
               }}
@@ -119,7 +119,7 @@ export default function Staff() {
         ))} */}
         {STAFF.map((doc, idx) => (
   <React.Fragment key={`${doc.name}-${idx}`}>
-    <Grid size={{ xs: 12, md: 6 }}>
+    {/* <Grid size={{ xs: 12, md: 6 }}>
       <Image
         src={doc.image}
         alt={doc.name}
@@ -133,9 +133,9 @@ export default function Staff() {
         }}
         priority
       />
-    </Grid>
+    </Grid> */}
 
-    <Grid size={{ xs: 12, md: 6 }}>
+    <Grid size={{ xs: 12, md: 10 }} sx={{boxShadow:2,p:2,borderRadius:"10px"}}>
       <Box sx={{ mt: 2, ml: 2 }}>
         <Typography
           variant="h6"

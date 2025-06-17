@@ -8,8 +8,9 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined"
 import { blueColor } from "@/components/utils/Colors"
 
 const STAFF = [
-  { name: "Mr. Maaz Ahmed", title: "HR Manager" },
-  { name: "Dr. Shamim Haider", title: "HR Manager/IT Adviser" },
+  // { name: "Mr. Maaz Ahmed", title: "HR Manager" },
+  // { name: "Dr. Shamim Haider", title: "HR Manager/IT Adviser" },
+    { name: "Dr. Catherine Donnelly", title: "" },
   { name: "Ruth Kelly", title: "Staff Nurse" },
   { name: "Margaret O'Gara", title: "Medical Secretary/Assistant" },
   { name: "Karen Drury", title: "Medical Secretary" },
