@@ -105,11 +105,11 @@ export default function Footer() {
 <Grid size={{xs:12,md:2}}>
     <Box textAlign="center">
             <Image
-              src="/logo.png"
+              src="/logo.jpg"
               alt="French Park Logo"
               width={70}
               height={70}
-              style={{ objectFit: "contain" }}
+              style={{ objectFit: "contain" ,borderRadius:"8px"}}
               priority
             />
           </Box>

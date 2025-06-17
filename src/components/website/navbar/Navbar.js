@@ -214,7 +214,7 @@ export default function Navbar() {
           >
             {/* FrenchPark */}
               <Image
-                          src="/logo.png"
+                          src="/logo.jpg"
                           alt="Doctor"
                         //   fill
                           height={1000}
@@ -250,7 +250,7 @@ export default function Navbar() {
           </Box>
         <Box display={"flex"} justifyContent={"center"} mb={2} >
              <Image
-                          src="/logo.png"
+                          src="/logo.jpg"
                           alt="Doctor"
                         //   fill
                           height={1000}

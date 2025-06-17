@@ -83,9 +83,9 @@ fetchBannerContent()
             </Box>
 
 
-            <Box sx={{ textAlign: "center", mb: 2 }}>
+            <Box sx={{ textAlign: "center", my: 2 }}>
               <Image
-                src="/logo.png"
+                src="/logo.jpg"
                 alt="French Park Logo"
                 width={200}
                 height={200}
