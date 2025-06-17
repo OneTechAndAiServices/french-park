@@ -18,19 +18,33 @@ import { blueColor } from "@/components/utils/Colors"
 import AllStaff from "./AllStaff"
 
 const STAFF = [
+  // {
+  //   name: "Dr. Muhammad Ghazanain",
+  //   image: "/staff1.png", // put this in /public
+  //   bio: `Dr. Muhammad Ghazanain graduated in 2010 from Allama Iqbal Medical College in Pakistan and went on to pursue specialized medical training. He worked as a Medical Registrar for 5 years in Ireland and completed his MRCP (Membership of the Royal College of Physicians of Ireland) exams. In 2018, Dr. Ghazanain decided to become a General Practitioner (GP) and joined the GP Training Scheme (GCST). During his training he completed additional diplomas in Paediatrics (Royal College of Ireland), Diploma in Child Health (Royal College of Ireland), Immediate Cardiac Life Support (ICLS), Intermediate Cardiac Care Science Course (ICCS), Joint Infection Course.`,
+  //   qualifications: [
+  //     "General Practitioner (Royal College of Ireland)",
+  //     "Diploma in Paediatrics (Royal College of Ireland)",
+  //     "Diploma in Child Health (Royal College of Ireland)",
+  //     "Joint Infection Course (JIC)",
+  //     "Immediate Cardiac Life Support (ICLS)",
+  //     "Intermediate Cardiac Care Science Course (ICCS)",
+  //   ],
+  // },
   {
-    name: "Dr. Muhammad Ghazanain",
-    image: "/staff1.png", // put this in /public
-    bio: `Dr. Muhammad Ghazanain graduated in 2010 from Allama Iqbal Medical College in Pakistan and went on to pursue specialized medical training. He worked as a Medical Registrar for 5 years in Ireland and completed his MRCP (Membership of the Royal College of Physicians of Ireland) exams. In 2018, Dr. Ghazanain decided to become a General Practitioner (GP) and joined the GP Training Scheme (GCST). During his training he completed additional diplomas in Paediatrics (Royal College of Ireland), Diploma in Child Health (Royal College of Ireland), Immediate Cardiac Life Support (ICLS), Intermediate Cardiac Care Science Course (ICCS), Joint Infection Course.`,
-    qualifications: [
-      "General Practitioner (Royal College of Ireland)",
-      "Diploma in Paediatrics (Royal College of Ireland)",
-      "Diploma in Child Health (Royal College of Ireland)",
-      "Joint Infection Course (JIC)",
-      "Immediate Cardiac Life Support (ICLS)",
-      "Intermediate Cardiac Care Science Course (ICCS)",
-    ],
-  },
+  name: "Dr. Muhammad Ghazanain",
+  image: "/staff1.png", 
+  bio: `Dr. Muhammad Ghazanain graduated in 2009 from Allama Iqbal Medical College in Pakistan and went on to pursue specialized medical training. He worked as a Medical Registrar for 5 years in Ireland and completed his MRCP (Membership of the Royal College of Physicians of Ireland) exams. In 2018, Dr. Ghazanain decided to become a General Practitioner (GP) and joined the GP Training Scheme (GCST). During his training he completed additional diplomas in Paediatrics (Royal College of Ireland), RCPI Diploma in Dermatology, Immediate Cardiac Life Support (ICLS), Intermediate Cardiac Care Science Course (ICCS), Joint Infection Course.`,
+  qualifications: [
+    "General Practitioner (Royal College of Ireland)",
+    "Diploma in Paediatrics (Royal College of Ireland)",
+    "RCPI Diploma in Dermatology",
+    "Joint Infection Course (JIC)",
+    "Immediate Cardiac Life Support (ICLS)",
+    "Intermediate Cardiac Care Science Course (ICCS)",
+  ],
+}
+
   // {
   //   name: "Dr. Catherine Donnelly",
   //   image: "/staff2.png", 
